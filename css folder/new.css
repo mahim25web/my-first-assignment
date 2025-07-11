@@ -134,3 +134,53 @@
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
       max-width: 300px;
     }
+ .contact-section {
+  background-color: #f1f4ff;
+  padding: 4rem 2rem;
+  justify-content: space-between;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+  margin: auto;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contact-heading h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+  
+ 
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form label {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.contact-form textarea {
+  height: 120px;
+  resize: vertical;
+}
