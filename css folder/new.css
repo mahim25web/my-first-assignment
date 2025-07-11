@@ -114,3 +114,23 @@
   font-size: 0.95rem;
   color: #555;
 }
+ .testimonials {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    .testimonial-cards {
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 1rem;
+      padding: 1.5rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      max-width: 300px;
+    }
