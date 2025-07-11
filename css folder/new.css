@@ -75,3 +75,42 @@
       border-radius: 1rem;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     }
+
+    .stats {
+  background: #e4e9ff;
+  padding: 4rem 2rem;
+  text-align: center;
+  border-radius: 12px;
+  max-width: 1140px;
+  margin: 4rem auto; 
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+}
+
+.stats h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.stats-grid div {
+  min-width: 150px;
+}
+
+.stats-grid strong {
+  display: block;
+  font-size: 2rem;
+  color: #4a00ff;
+  margin-bottom: 0.5rem;
+}
+
+.stats-grid p {
+  font-size: 0.95rem;
+  color: #555;
+}
